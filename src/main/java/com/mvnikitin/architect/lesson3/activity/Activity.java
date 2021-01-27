@@ -26,7 +26,7 @@ public abstract class Activity {
 
     public abstract DoSmth createDoSmth();
 
-    public void doSmth() {
+    public final void doSmth() {
         doSmth.doSmth();
     }
 
